@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Ecommerce_template'`, () => {
+  it(`should have as title 'SMP-Frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Ecommerce_template');
+    expect(app.title).toEqual('SMP-Frontend');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Ecommerce_template');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, SMP-Frontend');
   });
 });
