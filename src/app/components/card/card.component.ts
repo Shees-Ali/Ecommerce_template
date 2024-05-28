@@ -29,7 +29,7 @@ export class CardComponent implements OnInit {
       image: 'assets/images/plant1.jpg',
       categories: ['Air purifying', 'Medium Plants'],
       rating: {
-        rate: 3.9,
+        rate: 2,
         count: 120,
       },
     },
@@ -42,7 +42,7 @@ export class CardComponent implements OnInit {
       image: 'assets/images/plant2.jpeg',
       categories: ['Air purifying', 'Medium Plants'],
       rating: {
-        rate: 3.9,
+        rate: 4,
         count: 120,
       },
     },
@@ -69,7 +69,7 @@ export class CardComponent implements OnInit {
       image: 'assets/images/plant3.jpeg',
       categories: ['Air purifying', 'Medium Plants'],
       rating: {
-        rate: 3.9,
+        rate: 5,
         count: 120,
       },
     },
