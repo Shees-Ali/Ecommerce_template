@@ -5,10 +5,21 @@ import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
-  declarations: [NavbarComponent, CardComponent, HeroSectionComponent],
+  declarations: [
+    NavbarComponent,
+    CardComponent,
+    HeroSectionComponent,
+    SearchComponent,
+  ],
   imports: [CommonModule, RouterModule, FormsModule],
-  exports: [NavbarComponent, CardComponent, HeroSectionComponent],
+  exports: [
+    NavbarComponent,
+    CardComponent,
+    HeroSectionComponent,
+    SearchComponent,
+  ],
 })
 export class ComponentsModule {}
