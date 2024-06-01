@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { SearchComponent } from './search/search.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SearchComponent } from './search/search.component';
     CardComponent,
     HeroSectionComponent,
     SearchComponent,
+    FooterComponent,
   ],
   imports: [CommonModule, RouterModule, FormsModule],
   exports: [
@@ -20,6 +22,7 @@ import { SearchComponent } from './search/search.component';
     CardComponent,
     HeroSectionComponent,
     SearchComponent,
+    FooterComponent
   ],
 })
 export class ComponentsModule {}
